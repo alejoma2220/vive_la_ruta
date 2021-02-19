@@ -1,0 +1,496 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: inherit;
+  font-style: normal;
+  }
+
+
+/*colores
+f4f9f4
+c4e3cb
+8aae92
+616161
+optimize
+fff4c9
+c7e78b
+81ae64
+709053
+
+*/
+header{
+   text-align: center;
+   color: #616161;
+   background: #f4f9f4;
+   position: sticky;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ nav{
+   display: inline;
+   font-family: Montserrat;
+   color: #616161;
+}
+
+.redes {
+  display: inline;
+}
+
+.titulosPrincipales {
+  color: #8aae92;
+  text-align: center;
+  font-size: 100px;
+  font-family:'Bebas Neue';
+}
+
+h3 {
+  font-size: 25px;
+  font-family: Montserrat;
+  font-weight: 600;
+    color: #8aae92
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #8aae92
+}
+
+h4, h5, h6 {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 800;
+    color: #222222
+}
+
+p {
+font-family: Montserrat;
+font-size: 20px
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #616161;
+}
+
+.linkSub:hover {
+  background-image: linear-gradient(transparent 80%,#f0e8e7 0);
+  font-weight: 600;
+}
+
+.containerHeaderIndex{
+  background-image: url("../img/imagen_principal.jpg");
+  color: #616161;
+  text-align: center;
+  padding: 10px;
+  background-size: 100%;
+  padding: 10% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fondoBlanco{
+  background: #f4f9f4;
+  padding: 1rem 2rem;
+  text-align: center;
+  border: 2px solid;
+  border-color: #8aae92;
+
+}
+
+ul{display: inline;}
+
+li{
+  display: inline-block;
+  position: relative;
+  padding: 10px
+}
+
+ul ul{
+  position: absolute;
+  display:none
+}
+
+ul li:hover ul{
+  display: block;
+  background: white;
+  margin-top: 5px
+}
+
+/* ------------ INDEX Seccion 1 -------- */
+
+.containerSectionIndex{
+  display: flex;
+  padding: 5rem 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.articuloPrincipalIndex, .articuloSecundario{
+  padding: 0 3rem
+}
+.cuadroTextoImg{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.centrarTextoImg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.articuloSecundario{
+width: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.containerSectionIndex a img{
+  width: 100%;
+  min-width: 350px
+}
+
+.articuloSecundario > a{
+  justify-content: left;
+  padding: 1rem;
+  align-self: flex-start;
+}
+
+.animacion{
+  transition: all 0.5s;}
+
+.animacion:hover{
+  opacity: 0.5;
+  -moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+a img{transition: all 0.5s;}
+a:hover img{
+  opacity: 0.5;
+  -moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+/* ------ INDEX seccion 2 --------*/
+
+
+.containerLugaresIndex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.lugaresIndexTexto{
+    width: 25rem;
+    padding: 2em;
+
+
+}
+
+.lugaresIndexImg{
+  overflow: hidden;
+  vertical-align: top;
+  height: 20rem;
+    z-index: -2
+}
+
+.superponerLugarIndex{
+  position: relative;
+  left: 10rem;
+  margin-bottom: 2rem
+}
+
+.boton {
+  padding: 10px 30px;
+  background-color: #fff4c9;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*---------- INDEX seccion 3 -----------*/
+
+.containerRegionesIndex{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartaIndex {
+  width: 200px;
+  background-color: red;
+  padding: 10px;
+  margin: 10px;
+  padding-bottom: 30px;
+  flex-direction:column;
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.cartaIndex img{
+  width: 100%
+}
+
+.centraTexto{
+  text-align: center;
+
+}
+
+.subscribete{
+   margin: 3% 0;
+   text-align: center;
+   background-color: #fff4c9;
+   padding: 3%;
+   border:3px solid #8aae92;
+   margin: 30px
+}
+
+.subscribete h2{font-size: 40px}
+
+footer{
+  background: #616161;
+color: white;
+padding: 30px;
+display:flex;
+justify-content: space-around;
+}
+
+footer a {
+  color: white
+}
+
+footer div a{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+ }
+
+/*Pagina Historia*/
+
+.imghistoria, .historiaTexto {
+  text-align: center;
+}
+
+.container .historia{
+  padding: 4rem 0
+}
+
+.imghistoria img {
+  width:100%;
+  display: inline;
+}
+
+.textosComplementarios{
+
+  padding: 2rem 5rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textosComplementarios h2{margin: 2rem}
+
+.margin_top{
+  margin-top: 2rem
+}
+
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.articuloHistoria{
+  display: flex;
+  align-items:center;
+  text-align: left;
+  }
+
+.imgArticuloHistoria{
+  width: 200px;
+
+}
+
+.imgArticuloHistoria img{
+  height: 100%
+}
+.textoArticuloHistoria{
+  text-align: left;
+}
+/*fin pagina Historia*/
+
+/*pagina Destino*/
+
+.container_rutasLugares{
+  display: flex;
+  justify-content: center;
+}
+.rutas{
+  text-align: center;
+  padding: 30px
+
+}
+.imgCuadrada {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+}
+
+/*fin pagina Destino*/
+
+/*pagina Rutas*/
+.container_caminatasMedellin{ display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+padding:0 30px}
+
+.rutas img{ width: 100%}
+
+
+/*fin pagina rutas*/
+
+/*pagina lugares*/
+
+.primeraFilaLugares{
+  margin-bottom: 20px
+}
+
+.lugaresAntioquia h2{
+  font-size: 40px
+}
+
+.lugaresAntioquia h3{
+  margin: 20px;
+  color: #616161;
+  font-weight: 600;
+}
+
+.container_primeraFilaLugares{
+    background-image: linear-gradient(transparent 30%,#f4f9f4 0);
+    padding: 0 4rem;
+}
+.linkLugares{
+  display: flex;
+  flex-wrap: wrap;
+}
+.linkLugares a{
+  background: #c4e3cb;
+  padding: 10px;
+  border-radius: 9px;
+  margin: 5px 2px
+}
+
+
+.container_primeraFilaLugares {
+  display: flex;
+  padding: 3rem 2rem
+}
+
+.cartaLugares{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*fin pagina lugares*/
+
+/*pagina blog*/
+
+.articuloRecomendado{
+  border: 3px solid;
+  padding: 20px
+}
+
+.container_listaBlogs{
+  display:flex;
+padding: 4rem;
+flex-direction: column;
+}
+
+.blogPrincipales{
+  align-items: center;
+}
+
+.ultimoPost img {width: 90%
+}
+.ultimoPost{
+  justify-content: flex-start;
+}
+
+.articuloRecomendado{
+  width: 400px
+}
+.imgArticuloRecomendado img{
+  width: 100%
+}
+
+/*fin pagina blog*/
+/*pagina tienda*/
+
+.mercancia , .cursos {text-align: center;margin-top: 4%}
+
+.cursos .fondoBlanco {display: inline-block;}
+
+.mercancia .fondoBlanco {display: inline-block;}
+
+.cursoCarta{
+  border: 3px solid;
+  margin: 5px;
+  text-align: center;
+  padding: 1%
+}
+
+.mercanciaCarta{
+  border: 3px solid;
+  margin: 5px;
+  text-align: center;
+}
+/*fin pagina tienda*/
+/*pagina contacto*/
+
+/*fin pagina contacto*/
+/*pagina fotografia*/
+.galeriaCompleta{
+  margin: 0.5rem auto;
+  width:100%;
+  max-width:100%;
+  column-count: 4;
+
+}
+.imagenesGaleria{
+  width:260px;
+height:auto;
+display:block;
+margin: 0.5rem;
+
+}
+
+.imagenesGaleria img{
+  width: 100%
+}
+
+/*fin pagina fotografia*/
